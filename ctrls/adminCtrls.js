@@ -109,10 +109,9 @@ var removeDevice = (req,res) => {
 }
 
 var codeChallenge = (req,res) => {
-
+  res.status(200).send({iterationCount : iterations(req.body.data)})
 }
 
-var name = 'abbacbbcddd'
 
 function iterations(name1){
   console.log('name --> ',name1)
@@ -152,6 +151,8 @@ function iterations(name1){
     }
   }
   console.log('iterations count --> ',count)
+
+  return count
 }
 
 function swap(arr,i,j){
@@ -177,5 +178,6 @@ module.exports = {
   addDevices,
   allocateDevice,
   removemember,
-  removeDevice
+  removeDevice,
+  codeChallenge
 }

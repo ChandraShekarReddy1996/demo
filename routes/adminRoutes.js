@@ -26,4 +26,8 @@
 	  ctr.removemember(req,res);
 	})
 
+	app.post('/codeChallenge',jsonParser,(req,res) => {
+		ctr.codeChallenge(req,res);
+	})
+
 	app.listen(3000)
