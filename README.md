@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Devack
+# Demo
 
 please kindly run through routes to check the code
 
@@ -10,5 +10,5 @@ mongo Services -- > mongoService.js
 mongoose Schema ---> server.js
 controllers ---> membersctrls.js
 =======
-# Devack
+# Demo
 >>>>>>> 50a6aea2e805bd833b9549ad5545ac6b7b69edc3
